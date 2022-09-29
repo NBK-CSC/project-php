@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-<title>Hello world page</title>
+<title>Main</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
@@ -14,9 +14,7 @@ foreach ($result as $row){
     echo "<tr><td>{$row['ID']}</td><td>{$row['name']}</td><td>{$row['surname']}</td></tr>";
 }
 ?>
+<a href="pr2.php">указатель ссылки</a>
 </table>
-<?php
-phpinfo();
-?>
 </body>
 </html>
